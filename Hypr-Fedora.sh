@@ -62,6 +62,14 @@ echo "Executando atualizações do xdg-user-dirs..."
 xdg-user-dirs-gtk-update
 xdg-user-dirs-update
 
+# Baixar Wallpapers.zip se ainda não existir
+if [ -f "$SCRIPT_DIR/wallpaper.sh" ]; then
+    echo "Executando wallpaper.sh para baixar Wallpapers.zip..."
+    bash "$SCRIPT_DIR/wallpaper.sh"
+else
+    echo "wallpaper.sh não encontrado em $SCRIPT_DIR"
+fi
+
 echo "Extraindo config.zip..."
 pause
 if [ -f "$SCRIPT_DIR/config.zip" ]; then
@@ -99,6 +107,14 @@ if [ -f "$SCRIPT_DIR/simple-sddm-2.sh" ]; then
     echo "simple-sddm-2.sh concluído."
 else
     echo "simple-sddm-2.sh não encontrado em $SCRIPT_DIR"
+fi
+
+# Corrigindo waypaper
+if [ -f "$SCRIPT_DIR/fix_swww.sh" ]; then
+    echo "Executando fix_swww.sh..."
+    bash "$SCRIPT_DIR/fix_swww.sh"
+else
+    echo "fix_swww.sh não encontrado em $SCRIPT_DIR"
 fi
 
 # --- Executar hyprpm-update.sh se existir ---
