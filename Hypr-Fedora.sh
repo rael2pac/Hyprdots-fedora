@@ -38,7 +38,7 @@ pause
 
 packages=(
     hyprland waypaper swaylock-effects swww wlogout grimblast nwg-look fish gnome-software hyprland-devel swayidle
-    adw-gtk3-theme network-manager-applet pavucontrol ffmpegthumbnailer easyeffects hyprpolkitagent pamixer
+    adw-gtk3-theme network-manager-applet pavucontrol ffmpegthumbnailer easyeffects hyprpolkitagent pamixer dkms
     xdg-desktop-portal-wlr xdg-user-dirs xdg-user-dirs-gtk bluez bluez-tools blueman vlc plasma-breeze
     btop sddm dolphin dolphin-plugins kde-cli-tools gnome-calculator papers loupe satty menulibre 
     gnome-text-editor gnome-calendar ark qt6-qtwebengine-devel waybar mate-polkit firefox wget git gnome-disk-utility fastfetch pciutils qt5ct qt6ct-kde
