@@ -37,7 +37,7 @@ sudo dnf copr enable -y solopasha/hyprland
 pause
 
 packages=(
-    hyprland waypaper swaylock-effects swww wlogout grimblast nwg-look fish gnome-software hyprland-devel swayidle
+    hyprland waypaper swaylock-effects swww wlogout grimblast nwg-look fish gnome-software hyprland-devel swayidle rofi
     adw-gtk3-theme network-manager-applet pavucontrol ffmpegthumbnailer easyeffects hyprpolkitagent pamixer dkms
     xdg-desktop-portal-wlr xdg-user-dirs xdg-user-dirs-gtk bluez bluez-tools blueman vlc plasma-breeze
     btop sddm dolphin dolphin-plugins kde-cli-tools gnome-calculator papers loupe satty menulibre 
